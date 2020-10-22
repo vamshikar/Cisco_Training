@@ -6,6 +6,8 @@
       <class name="Mypkg.NewTest">
         <methods>
           <include name="f"/>
+          <include name="initialze"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- Mypkg.NewTest -->
     </classes>

@@ -3,4 +3,21 @@
   <groupId>Mymaven</groupId>
   <artifactId>mytest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-</project>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.poi</groupId>
+		<artifactId>poi</artifactId>
+		<version>4.1.2</version>
+		</dependency>
+		<dependency>
+  		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>4.1.2</version>
+		</dependency>
+		<dependency>
+		<groupId>io.qameta.allure</groupId>
+		<artifactId>allure-testng</artifactId>
+		<version>2.13.6</version>
+	</dependency>
+  </dependencies>
+ </project>
